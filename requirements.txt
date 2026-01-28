@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-transformers==4.39.3
+transformers
 tokenizers
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.1.2+cpu
+torch
 
 

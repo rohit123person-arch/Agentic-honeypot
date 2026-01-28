@@ -1,2 +1,12 @@
-fastapi
-uvicorn
+fastapi==0.128.0
+uvicorn==0.40.0
+pydantic>=2.7.0
+starlette>=0.40.0,<0.51.0
+
+# Hugging Face (CPU only)
+transformers==4.46.3
+torch==2.2.2
+
+# Optional but recommended
+typing-extensions>=4.8.0
+

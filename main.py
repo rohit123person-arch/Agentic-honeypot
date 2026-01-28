@@ -58,7 +58,8 @@ SCAM_KEYWORD_THRESHOLD = 2
 
 # CPU-Optimized LLM Configuration
 # Using distilgpt2 - smallest model, fast on CPU, only ~240MB
-LLM_MODEL = os.getenv("LLM_MODEL", "pythia-70m")
+LLM_MODEL = os.getenv("LLM_MODEL", "EleutherAI/pythia-70m
+")
 LLM_MAX_LENGTH = int(os.getenv("LLM_MAX_LENGTH", "80"))  # Shorter for speed
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.9"))
 USE_LLM = os.getenv("USE_LLM", "1") == "1"  # Can disable LLM entirely
